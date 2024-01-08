@@ -64,7 +64,7 @@ HELM_VALUES_TEMPLATE_SKIPPED = true
 # all be in folders at the same level (no additional levels of nesting).
 
 REGISTRY_ORGS ?= docker.io/crossplane xpkg.upbound.io/crossplane
-IMAGES = crossplane
+IMAGES = crossplane crank
 -include build/makelib/imagelight.mk
 
 # ====================================================================================
